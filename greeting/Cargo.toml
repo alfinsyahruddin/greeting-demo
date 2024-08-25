@@ -1,0 +1,11 @@
+[package]
+name = "greeting"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate_type = ["cdylib", "staticlib"]
+name = "greeting"
+
+[dependencies]
+uniffi = { version = "0.28.1", features = ["cli"] }
